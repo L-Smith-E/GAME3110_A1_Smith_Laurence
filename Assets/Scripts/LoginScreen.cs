@@ -16,7 +16,7 @@ public class LoginScreen : MonoBehaviour
 
     public void receiveData()
     {
-        StartCoroutine(GetRequest(""));
+        StartCoroutine(GetRequest("https://aqugzmhltj.execute-api.us-east-1.amazonaws.com/default/Log_In"));
     }
     
     IEnumerator Upload()
